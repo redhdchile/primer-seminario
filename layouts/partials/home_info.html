@@ -1,0 +1,24 @@
+{{- with site.Params.homeInfoParams }}
+<article class="first-entry home-info">
+    <header class="entry-header">
+        {{- if .Image }}
+        <div class="home-image">
+        <img src="{{ .Image }}" alt="{{ .Title }}" class="home-logo">
+        </div>
+        {{- end }}
+        <h1>{{ .Title | markdownify }}</h1>
+        {{- if .Subtitle }}
+        <h2 class="home-subtitle">{{ .Subtitle | markdownify }}</h2>
+        {{- end }}
+    </header>
+    <div class="entry-content">
+        {{ .Content | markdownify }}
+    </div>
+    <footer class="entry-footer">
+        {{ partial "social_icons.html" (dict "align" site.Params.homeInfoParams.AlignSocialIconsTo) }}
+    <div class="newsletter-section">
+        <script async data-uid="a94009d478" src="https://redhd-chile.kit.com/a94009d478/index.js"></script>
+    </div>
+    </footer>
+</article>
+{{- end -}}

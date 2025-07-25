@@ -1,0 +1,69 @@
+/* ===== GOOGLE FONTS ===== */
+@import url('https://fonts.googleapis.com/css2?family=Space+Mono:wght@400;700&display=swap');
+
+/* ===== FONDO ===== */
+body {
+    background-color: #d0ebe9 !important;
+    font-family: 'Space Mono', monospace;
+}
+
+html {
+    background-color: #d0ebe9 !important;
+}
+
+.main {
+    background-color: #d0ebe9 !important;
+}
+
+#main {
+    background-color: #d0ebe9 !important;
+}
+
+/* ===== HOME ===== */
+
+/* Imagen del logo */
+.home-image {
+    text-align: center;
+    margin-bottom: 2rem;
+}
+
+.home-logo {
+    max-width: 180px;
+    max-height: 140px;
+    width: auto;
+    height: auto;
+    object-fit: contain;
+}
+
+/* Título */
+.first-entry.home-info .entry-header h1 {
+    text-align: center;
+    margin-bottom: 1rem;
+    color: #2e3192;
+    font-size: 2.5rem;
+}
+
+/* Subtítulo */
+.home-subtitle {
+    text-align: center;
+    margin-bottom: 2rem;
+    color: #2e3192;
+    font-size: 1.5rem;
+}
+
+/* Contenido */
+.first-entry.home-info .entry-content {
+    text-align: center;
+    max-width: 600px;
+    margin: 0 auto 2rem auto;
+    color: #333333;
+    font-size: 1.25rem;
+    line-height: 1.6;
+}
+
+/* Newsletter */
+.newsletter-section {
+    margin-top: 2rem;
+    padding-top: 2rem;
+    border-top: 1px solid #b8ddd9;
+}
