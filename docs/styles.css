@@ -1,0 +1,29 @@
+@import url('https://fonts.googleapis.com/css2?family=Space+Mono:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+
+
+/* css styles */
+
+.title, .subtitle {
+    text-align: center;
+  }
+
+  .navbar {
+    background-color: #2e3192 !important;
+  }
+  
+  /* Para asegurar que el texto sea legible */
+  .navbar-brand, .navbar-nav .nav-link {
+    color: white !important;
+  }
+  
+  .navbar-nav .nav-link:hover {
+    color: #f0f0f0 !important;
+  }
+
+
+  .formkit-form {
+    border: 2px solid #2e3192 !important;
+    border-radius: 8px !important;
+    max-width: 500px !important;
+    margin: 0 auto !important;
+  }
