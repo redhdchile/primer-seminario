@@ -4,7 +4,7 @@ image: img/logo_sinbg.png
 about:
   template: jolla
   image-width: 10em
-subtitle: "Santiago, 2026"
+subtitle: "Santiago, 9 y 10 de abril de 2026"
 ---
 
 Te invitamos al primer seminario nacional de humanidades digitales en Chile. 
