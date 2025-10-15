@@ -13,6 +13,9 @@ Durante el primer semestre de 2026 nos reuniremos para explorar de forma colecti
 
 Únete a esta conversación sobre tecnologías, memorias y futuros posibles.
 
+
+{{< fa location-dot >}} **Campus Lo Contador UC**
+
 <br/>
 <script async data-uid="a94009d478" src="https://redhd-chile.kit.com/a94009d478/index.js"></script>
 
