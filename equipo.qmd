@@ -16,7 +16,7 @@ Este evento es organizado por la Red de Humanidades Digitales de Chile, en colab
 Nicole Larrondo
 :::
 
-Nicole Larrondo es Doctora en Estudios Culturales Latinoamericanos por la Universidad de Texas en Austin y Master en Humanidades Públicas por Brown University. Actualmente es la coordinadora de Humanidades Digitales en el Laboratorio de Historia Digital y en el Laboratorio de Patrimonio Documental y Humanidades Digitales de la Pontificia Universidad Católica de Chile.
+Nicole Larrondo es Doctora en Estudios Culturales Latinoamericanos por la Universidad de Texas en Austin y Master en Humanidades Públicas por Brown University. Actualmente es la coordinadora de Humanidades Digitales en el [Laboratorio de Historia Digital]() y en el [Laboratorio de Patrimonio Documental y Humanidades Digitales](https://laboratoriopatrimonioyhumanidades.uc.cl/) de la Pontificia Universidad Católica de Chile.
 
 ::: {.social-links}
 [{{< fa brands linkedin >}}](https://www.linkedin.com/in/nicole-larrondo-p/) 
@@ -31,6 +31,7 @@ Nicole Larrondo es Doctora en Estudios Culturales Latinoamericanos por la Univer
 Riva Quiroga
 :::
 
+Riva Quiroga es Doctora en Lingüística. Actualmente trabaja como Research Fellow en [OLS](https://we-are-ols.org/) y es parte del equipo detrás de [Programming Historian](https://programminghistorian.org/). Es Fellow del [Software Sustainability Institute](https://www.software.ac.uk/) y participa de forma activa en distintas comunidades de programación y ciencia abierta.
 
 ::: {.social-links}
 [{{< fa globe >}}](https://rivaquiroga.cl) | [{{< fa brands linkedin >}}](https://linkedin.com/in/riva-quiroga) | [{{< fa brands github >}}](https://github.com/rivaquiroga) | [{{< fa brands bluesky >}}](https://bsky.app/profile/rivaquiroga.bsky.social) | [{{< fa brands orcid >}}](https://orcid.org/0000-0002-1147-4135)
