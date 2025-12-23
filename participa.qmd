@@ -1,0 +1,42 @@
+---
+title: "Cómo participar"
+toc: false
+---
+
+
+# Únete como parte del público
+
+Hasta el 8 de marzo a las 23:59 UTC estará abierto el registro para asistentes. En el formulario te pediremos que indiques si quieres participar en el evento presencial (miércoles 9 de abril), en online (jueves 10 de abril), o en ambos. 
+El registro no tiene costo.
+
+
+::: {.button-container}
+<a href="https://forms.gle/jQjDogLKMrajM15YA" class="btn-custom">Asiste</a>
+:::
+
+
+# Presenta tu proyecto o experiencia
+
+Los formatos de presentación dependen del día en que decidas participar:
+
+
+### jueves 9 de abril (presencial):
+
+
+- **Charlas relámpago**: Presentaciones breves de 5 minutos para compartir ideas, proyectos o herramientas de forma dinámica
+- **Panel de fracasos**: Presentaciones de 10 minutos que buscan ofrecer un espacio de reflexión colectiva sobre desafíos, errores y aprendizajes en proyectos de humanidades digitales
+- **Exposición de pósters**: Presentación visual de proyectos, investigaciones o metodologías en formato póster. Este formato es ideal para proyectos en curso, para iniciativas que busquen retroalimentación del público o para aquellas que tengan un componente visual que se ve favorecido por la cercanía del público. 
+
+
+### Viernes 10 de abril (online):
+
+- **Workshops prácticos**: Talleres aplicados de 60 minutos donde los participantes aprenden herramientas o metodologías específicas vinculadas a las humanidades digitales
+- **Presentaciones para paneles temáticos**: Presentaciones de 10 minutos sobre temas relacionados con las humanidades digitales
+
+Las postulaciones estarán abiertas hasta el **29 de enero de 2026** a las 23:59 UTC. 
+
+
+::: {.button-container}
+<a href="https://forms.gle/RxnrREyoUjeRifwS6" class="btn-custom">Presenta</a>
+:::
+

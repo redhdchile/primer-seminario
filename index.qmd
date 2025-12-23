@@ -7,7 +7,7 @@ about:
 subtitle: "Santiago, 9 y 10 de abril de 2026"
 ---
 
-Te invitamos al primer seminario nacional de humanidades digitales en Chile. 
+Te invitamos al primer seminario nacional de humanidades digitales organizado por la la RedHD Chile. 
 
 Durante el primer semestre de 2026 nos reuniremos para explorar de forma colectiva cómo las humanidades digitales pueden transformar la memoria, el territorio y la justicia social. Investigadores, creadores, activistas digitales y estudiantes compartirán experiencias que desafían fronteras disciplinares y construyen conocimiento de forma colaborativa. 
 
@@ -15,6 +15,12 @@ Durante el primer semestre de 2026 nos reuniremos para explorar de forma colecti
 
 
 {{< fa location-dot >}} **Campus Lo Contador UC**
+
+::: {.button-container}
+<a href="https://forms.gle/jQjDogLKMrajM15YA" class="btn-custom">Asiste</a>
+<a href="https://forms.gle/RxnrREyoUjeRifwS6" class="btn-custom">Presenta</a>
+:::
+
 
 <br/>
 <!--

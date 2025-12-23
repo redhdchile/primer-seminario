@@ -3,9 +3,7 @@ title: "Equipo organizador"
 toc: false
 ---
 
-
-
-Este evento es organizado por la Red de Humanidades Digitales de Chile, en colaboración con el Laboratorio de Patrimonio Documental y Humanidades Digitales UC, el Instituto de Historia UC y el Centro UC de Patromonio Cultural. 
+Este evento es organizado por la Red de Humanidades Digitales de Chile, en colaboración con el Laboratorio de Patrimonio Documental y Humanidades Digitales UC. 
 
 ::: {.team-grid}
 

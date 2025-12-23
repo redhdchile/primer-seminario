@@ -4,14 +4,14 @@
     "href": "index.html",
     "title": "Primer Seminario de Humanidades Digitales",
     "section": "",
-    "text": "Te invitamos al primer seminario nacional de humanidades digitales en Chile.\nDurante el primer semestre de 2026 nos reuniremos para explorar de forma colectiva cómo las humanidades digitales pueden transformar la memoria, el territorio y la justicia social. Investigadores, creadores, activistas digitales y estudiantes compartirán experiencias que desafían fronteras disciplinares y construyen conocimiento de forma colaborativa.\nÚnete a esta conversación sobre tecnologías, memorias y futuros posibles.\n Campus Lo Contador UC"
+    "text": "Te invitamos al primer seminario nacional de humanidades digitales organizado por la la RedHD Chile.\nDurante el primer semestre de 2026 nos reuniremos para explorar de forma colectiva cómo las humanidades digitales pueden transformar la memoria, el territorio y la justicia social. Investigadores, creadores, activistas digitales y estudiantes compartirán experiencias que desafían fronteras disciplinares y construyen conocimiento de forma colaborativa.\nÚnete a esta conversación sobre tecnologías, memorias y futuros posibles.\n Campus Lo Contador UC\n\nAsiste Presenta"
   },
   {
     "objectID": "equipo.html",
     "href": "equipo.html",
     "title": "Equipo organizador",
     "section": "",
-    "text": "Este evento es organizado por la Red de Humanidades Digitales de Chile, en colaboración con el Laboratorio de Patrimonio Documental y Humanidades Digitales UC, el Instituto de Historia UC y el Centro UC de Patromonio Cultural.\n\n\n\n\nNicole Larrondo\n\nNicole Larrondo es Doctora en Estudios Culturales Latinoamericanos por la Universidad de Texas en Austin y Master en Humanidades Públicas por Brown University. Actualmente es la coordinadora de Humanidades Digitales en el Laboratorio de Historia Digital y en el Laboratorio de Patrimonio Documental y Humanidades Digitales de la Pontificia Universidad Católica de Chile.\n\n\n\n\n\n\n\nRiva Quiroga\n\nRiva Quiroga es Doctora en Lingüística. Actualmente trabaja como Research Fellow en OLS y es parte del equipo detrás de Programming Historian. Es Fellow del Software Sustainability Institute y participa de forma activa en distintas comunidades de programación y ciencia abierta.\n\n |  |  |  | \n\n\n\n\n\nJames Staig\n\nJames Staig es Doctor en Literatura especializado en la relación entre sonido, literatura y accesibilidad. Ha desarrollado proyectos culturales y de investigación que cruzan tecnología, pedagogía y creación literaria.\n\n |"
+    "text": "Este evento es organizado por la Red de Humanidades Digitales de Chile, en colaboración con el Laboratorio de Patrimonio Documental y Humanidades Digitales UC.\n\n\n\n\nNicole Larrondo\n\nNicole Larrondo es Doctora en Estudios Culturales Latinoamericanos por la Universidad de Texas en Austin y Master en Humanidades Públicas por Brown University. Actualmente es la coordinadora de Humanidades Digitales en el Laboratorio de Historia Digital y en el Laboratorio de Patrimonio Documental y Humanidades Digitales de la Pontificia Universidad Católica de Chile.\n\n\n\n\n\n\n\nRiva Quiroga\n\nRiva Quiroga es Doctora en Lingüística. Actualmente trabaja como Research Fellow en OLS y es parte del equipo detrás de Programming Historian. Es Fellow del Software Sustainability Institute y participa de forma activa en distintas comunidades de programación y ciencia abierta.\n\n |  |  |  | \n\n\n\n\n\nJames Staig\n\nJames Staig es Doctor en Literatura especializado en la relación entre sonido, literatura y accesibilidad. Ha desarrollado proyectos culturales y de investigación que cruzan tecnología, pedagogía y creación literaria.\n\n |"
   },
   {
     "objectID": "equipo.html#our-team",
@@ -26,5 +26,40 @@
     "title": "Equipo organizador",
     "section": "",
     "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur ornare ullamcorper ex, quis efficitur justo lobortis quis. Duis auctor metus a tellus consequat, in pharetra est iaculis. Morbi ac nunc nisi. Nulla id nisl eu arcu molestie pretium et vel mauris. Integer vel eros urna. Cras eu ante malesuada, vestibulum.\n\n |  |  |"
+  },
+  {
+    "objectID": "participa.html",
+    "href": "participa.html",
+    "title": "Cómo participar",
+    "section": "",
+    "text": "Únete como parte del público\nHasta el 8 de marzo a las 23:59 UTC estará abierto el registro para asistentes. En el formulario te pediremos que indiques si quieres participar en el evento presencial (miércoles 9 de abril), en online (jueves 10 de abril), o en ambos. El registro no tiene costo.\n\nAsiste\n\n\n\nPresenta tu proyecto o experiencia\nLos formatos de presentación dependen del día en que decidas participar:\n\njueves 9 de abril (presencial):\n\nCharlas relámpago: Presentaciones breves de 5 minutos para compartir ideas, proyectos o herramientas de forma dinámica\nPanel de fracasos: Presentaciones de 10 minutos que buscan ofrecer un espacio de reflexión colectiva sobre desafíos, errores y aprendizajes en proyectos de humanidades digitales\nExposición de pósters: Presentación visual de proyectos, investigaciones o metodologías en formato póster. Este formato es ideal para proyectos en curso, para iniciativas que busquen retroalimentación del público o para aquellas que tengan un componente visual que se ve favorecido por la cercanía del público.\n\n\n\nViernes 10 de abril (online):\n\nWorkshops prácticos: Talleres aplicados de 60 minutos donde los participantes aprenden herramientas o metodologías específicas vinculadas a las humanidades digitales\nPresentaciones para paneles temáticos: Presentaciones de 10 minutos sobre temas relacionados con las humanidades digitales\n\nLas postulaciones estarán abiertas hasta el 29 de enero de 2026 a las 23:59 UTC.\n\nPresenta"
+  },
+  {
+    "objectID": "participa.html#como-asistente",
+    "href": "participa.html#como-asistente",
+    "title": "Cómo participar",
+    "section": "Como asistente:",
+    "text": "Como asistente:\nHasta el 8 de marzo a las 23:59 UTC-3 estará abierto el registro para asistentes. En el formulario te pediremos que indiques si quieres participar en el evento presencial (jueves 9 de abril) y/o en online (viernes 10 de abril). El registro no tiene costo.\n\nAsiste\n\nMiércoles 9 de abril (presencial):\nCharlas relámpago: Presentaciones breves de 5 minutos para compartir ideas, proyectos o herramientas de forma dinámica\n\nPanel de fracasos: Presentaciones de 10 minutos que buscan ofrecer un espacio de reflexión colectiva sobre desafíos, errores y aprendizajes en proyectos de humanidades digitales\n\nExposición de pósters: Presentación visual de proyectos, investigaciones o metodologías en formato póster\nJueves 10 de abril (online):\nWorkshops prácticos: Talleres aplicados de 60 minutos donde los participantes aprenden herramientas o metodologías específicas vinculadas a las humanidades digitales\n\nPresentaciones para paneles temáticos: Presentaciones de 10 minutos sobre temas relacionados con las humanidades digitales"
+  },
+  {
+    "objectID": "participa.html#únete-como-parte-del-público",
+    "href": "participa.html#únete-como-parte-del-público",
+    "title": "Cómo participar",
+    "section": "Únete como parte del público",
+    "text": "Únete como parte del público\nHasta el 8 de marzo a las 23:59 UTC-3 estará abierto el registro para asistentes. En el formulario te pediremos que indiques si quieres participar en el evento presencial (jueves 9 de abril) y/o en online (viernes 10 de abril). El registro no tiene costo.\n\nAsiste"
+  },
+  {
+    "objectID": "participa.html#presenta-tu-proyecto-o-experiencia",
+    "href": "participa.html#presenta-tu-proyecto-o-experiencia",
+    "title": "Cómo participar",
+    "section": "Presenta tu proyecto o experiencia",
+    "text": "Presenta tu proyecto o experiencia\nHasta el 8 de marzo a las 23:59 UTC-3 estará abierto el registro para asistentes. En el formulario te pediremos que indiques si quieres participar en el evento presencial (jueves 9 de abril) y/o en online (viernes 10 de abril). El registro no tiene costo.\n\nAsiste\n\nMiércoles 9 de abril (presencial):\nCharlas relámpago: Presentaciones breves de 5 minutos para compartir ideas, proyectos o herramientas de forma dinámica\n\nPanel de fracasos: Presentaciones de 10 minutos que buscan ofrecer un espacio de reflexión colectiva sobre desafíos, errores y aprendizajes en proyectos de humanidades digitales\n\nExposición de pósters: Presentación visual de proyectos, investigaciones o metodologías en formato póster\nJueves 10 de abril (online):\nWorkshops prácticos: Talleres aplicados de 60 minutos donde los participantes aprenden herramientas o metodologías específicas vinculadas a las humanidades digitales\n\nPresentaciones para paneles temáticos: Presentaciones de 10 minutos sobre temas relacionados con las humanidades digitales"
+  },
+  {
+    "objectID": "participa.html#jueves-9-de-abril-presencial",
+    "href": "participa.html#jueves-9-de-abril-presencial",
+    "title": "Cómo participar",
+    "section": "jueves 9 de abril (presencial):",
+    "text": "jueves 9 de abril (presencial):\n\nCharlas relámpago: Presentaciones breves de 5 minutos para compartir ideas, proyectos o herramientas de forma dinámica\nPanel de fracasos: Presentaciones de 10 minutos que buscan ofrecer un espacio de reflexión colectiva sobre desafíos, errores y aprendizajes en proyectos de humanidades digitales\nExposición de pósters: Presentación visual de proyectos, investigaciones o metodologías en formato póster\n\nViernes 10 de abril (online):\nWorkshops prácticos: Talleres aplicados de 60 minutos donde los participantes aprenden herramientas o metodologías específicas vinculadas a las humanidades digitales\nPresentaciones para paneles temáticos: Presentaciones de 10 minutos sobre temas relacionados con las humanidades digitales\n\nPresenta"
   }
 ]

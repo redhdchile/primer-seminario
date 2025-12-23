@@ -13,6 +13,10 @@ h1 {
     text-align: center;
   }
 
+.quarto-title h1 {
+  font-size: 2.5rem;
+}
+
 .navbar {
   background: linear-gradient(to right, #8c52ff, #00bf63) !important;
 }
@@ -33,6 +37,29 @@ h1 {
     max-width: 500px !important;
     margin: 0 auto !important;
   }
+
+  /* botones */
+
+.button-container {
+  display: flex;
+  gap: 1rem;
+  justify-content: center;
+  margin-top: 2rem;
+}
+
+.btn-custom {
+  background-color: #00bf63;
+  color: white;
+  padding: 0.75rem 2rem;
+  border-radius: 8px;
+  text-decoration: none;
+  font-weight: 600;
+  transition: opacity 0.3s ease;
+}
+
+.btn-custom:hover {
+  opacity: 0.8;
+}
 
 
   /* EQUIPO */

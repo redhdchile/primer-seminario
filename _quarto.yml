@@ -6,10 +6,8 @@ website:
   title: "**RedHD Chile**"
   navbar:
     left:
-    - text: asiste
-      href: https://forms.gle/jQjDogLKMrajM15YA
-    - text: presenta
-      href: https://forms.gle/RxnrREyoUjeRifwS6
+    - text: cómo participar
+      href: participa.qmd
     - text: equipo
       href: equipo.qmd
 
