@@ -6,6 +6,8 @@ website:
   title: "**RedHD Chile**"
   navbar:
     left:
+    - text: programa
+      href: programa.qmd
     - text: cómo participar
       href: participa.qmd
     - text: equipo
