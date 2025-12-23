@@ -17,7 +17,9 @@ Durante el primer semestre de 2026 nos reuniremos para explorar de forma colecti
 {{< fa location-dot >}} **Campus Lo Contador UC**
 
 <br/>
+<!--
 <script async data-uid="a94009d478" src="https://redhd-chile.kit.com/a94009d478/index.js"></script>
+-->
 
 
 <div id="particles-js" style="position: fixed; top: 0; left: 0; width: 100%; height: 100%; z-index: -1;"></div>

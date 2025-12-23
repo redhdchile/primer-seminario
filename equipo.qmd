@@ -1,0 +1,56 @@
+---
+title: "Equipo organizador"
+toc: false
+---
+
+
+
+Este evento es organizado por la Red de Humanidades Digitales de Chile, en colaboración con el Laboratorio de Patrimonio Documental y Humanidades Digitales UC, el Instituto de Historia UC y el Centro UC de Patromonio Cultural. 
+
+::: {.team-grid}
+
+::: {.team-member}
+![](img/equipo/nicole.jpg){.team-photo}
+
+::: {.team-name}
+Nicole Larrondo
+:::
+
+Nicole Larrondo es Doctora en Estudios Culturales Latinoamericanos por la Universidad de Texas en Austin y Master en Humanidades Públicas por Brown University. Actualmente es la coordinadora de Humanidades Digitales en el Laboratorio de Historia Digital y en el Laboratorio de Patrimonio Documental y Humanidades Digitales de la Pontificia Universidad Católica de Chile.
+
+::: {.social-links}
+[{{< fa brands linkedin >}}](https://www.linkedin.com/in/nicole-larrondo-p/) 
+:::
+
+:::
+
+::: {.team-member}
+![](img/equipo/riva.jpeg){.team-photo}
+
+::: {.team-name}
+Riva Quiroga
+:::
+
+
+::: {.social-links}
+[{{< fa globe >}}](https://rivaquiroga.cl) | [{{< fa brands linkedin >}}](https://linkedin.com/in/riva-quiroga) | [{{< fa brands github >}}](https://github.com/rivaquiroga) | [{{< fa brands bluesky >}}](https://bsky.app/profile/rivaquiroga.bsky.social) | [{{< fa brands orcid >}}](https://orcid.org/0000-0002-1147-4135)
+:::
+
+:::
+
+::: {.team-member}
+![](img/equipo/james.jpg){.team-photo}
+
+::: {.team-name}
+James Staig
+:::
+
+James Staig es Doctor en Literatura especializado en la relación entre sonido, literatura y accesibilidad. Ha desarrollado proyectos culturales y de investigación que cruzan tecnología, pedagogía y creación literaria.
+
+::: {.social-links}
+[{{< fa brands linkedin >}}](https://cl.linkedin.com/in/james-staig-limidoro) | [{{< fa brands orcid >}}](https://orcid.org/0000-0001-8947-0719) 
+:::
+
+:::
+
+

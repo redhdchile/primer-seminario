@@ -4,7 +4,15 @@ project:
 
 website:
   title: "**RedHD Chile**"
-  navbar: true
+  navbar:
+    left:
+    - text: asiste
+      href: https://forms.gle/jQjDogLKMrajM15YA
+    - text: presenta
+      href: https://forms.gle/RxnrREyoUjeRifwS6
+    - text: equipo
+      href: equipo.qmd
+
   search: false
 
 format:
@@ -14,7 +22,7 @@ format:
       - brand
     css: styles.css
     toc: true
-    mainfont: "Space Mono"
+    mainfont: "Hammersmith One"
 
 
 

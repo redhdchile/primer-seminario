@@ -1,15 +1,21 @@
 @import url('https://fonts.googleapis.com/css2?family=Space+Mono:ital,wght@0,400;0,700;1,400;1,700&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=VT323&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Hammersmith+One&display=swap');
 
 /* css styles */
+
+
+h1 {
+  font-family: 'VT323', monospace;
+}
 
 .title, .subtitle {
     text-align: center;
   }
 
-  .navbar {
-    background-color: #2e3192 !important;
-  }
+.navbar {
+  background: linear-gradient(to right, #8c52ff, #00bf63) !important;
+}
   
   /* Para asegurar que el texto sea legible */
   .navbar-brand, .navbar-nav .nav-link {
@@ -27,3 +33,51 @@
     max-width: 500px !important;
     margin: 0 auto !important;
   }
+
+
+  /* EQUIPO */
+
+  .team-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 2rem;
+    margin: 2rem 0;
+  }
+  
+  .team-member {
+    padding: 1rem;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    text-align: center;
+  }
+  
+
+
+.team-photo {
+  width: 250px;
+  height: 250px;
+  border-radius: 50%;
+  object-fit: cover;
+  margin-bottom: 1rem;
+}
+
+.team-member a {
+  color: #8c52ff;
+}
+
+.team-name {
+  font-size: 1.5rem;
+  font-weight: bold;
+  margin-top: 0;
+}
+
+.social-links a {
+  font-size: 1.3rem;
+  margin: 0 0.3rem;
+  color: #00bf63;
+  text-decoration: none;
+}
+
+.social-links a:hover {
+  opacity: 0.7;
+}
