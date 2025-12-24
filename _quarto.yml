@@ -10,6 +10,8 @@ website:
       href: programa.qmd
     - text: cómo participar
       href: participa.qmd
+    - text: ponentes
+      href: participantes.qmd
     - text: equipo
       href: equipo.qmd
 

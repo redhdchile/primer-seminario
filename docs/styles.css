@@ -115,3 +115,46 @@ iframe {
   border-radius: 8px;
   margin: 2rem 0;
 }
+
+
+/* Probando estilo para incluir a quienes presentan */
+
+.presentador-item {
+  display: flex;
+  align-items: flex-start;
+  margin-bottom: 20px;
+  gap: 20px;
+}
+
+.presentador-foto-wrapper {
+  flex-shrink: 0;
+}
+
+.presentador-foto {
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  object-fit: cover;
+  display: block;
+}
+
+.presentador-info {
+  flex-grow: 1;
+}
+
+.presentador-nombre {
+  font-size: 1.3em;
+  font-weight: bold;
+  background-color: #00bf63;
+  color: white;
+  padding: 8px 8px;
+  display: inline-block;
+  margin-bottom: 2px;
+}
+
+.presentador-descripcion {
+  color: #333;
+  line-height: 1.5;
+  margin: 0;
+  margin-top: 0;
+}
