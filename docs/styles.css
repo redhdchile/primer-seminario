@@ -96,6 +96,12 @@ h1 {
   font-size: 1.5rem;
   font-weight: bold;
   margin-top: 0;
+  margin-bottom: 16px;
+  background-color: #00bf63;
+  color: white;
+  padding: 16px 16px 0px 16px;
+  line-height: 1;
+  display: inline-block;
 }
 
 .social-links a {
