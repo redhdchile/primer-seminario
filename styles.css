@@ -62,7 +62,7 @@ h1 {
 }
 
 
-  /* EQUIPO */
+  /* Equipo */
 
   .team-grid {
     display: grid;
@@ -123,7 +123,7 @@ iframe {
 }
 
 
-/* Probando estilo para incluir a quienes presentan */
+/* Presentadores */
 
 .presentador-item {
   display: flex;
@@ -164,3 +164,118 @@ iframe {
   margin: 0;
   margin-top: 0;
 }
+
+
+/* Programa */
+
+.cronograma-container {
+  margin: 2rem 0;
+}
+
+.cronograma-row {
+  display: grid;
+  grid-template-columns: 150px 1fr;
+  border-bottom: 1px solid #ddd;
+  min-height: 60px;
+}
+
+.horario {
+  padding: 1.5rem 1rem;
+  background-color: white;
+  border-right: 1px solid #ddd;
+  font-weight: 600;
+  display: flex;
+  align-items: center;
+  text-decoration: underline;
+  text-decoration-color: #8c52ff;
+  text-decoration-thickness: 3px;
+  text-underline-offset: 4px;
+}
+
+.actividades {
+  padding: 1.5rem 1rem;
+}
+
+.actividades-paralelas {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 2rem;
+  padding: 1.5rem 1rem;
+}
+
+.actividad {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+.titulo-actividad {
+  font-size: 1.2em;
+  font-weight: bold;
+  background-color: #00bf63;
+  color: white;
+  padding: 6px 10px;
+  display: inline-block;
+  margin-bottom: 8px;
+}
+
+.descripcion {
+  line-height: 1;
+  color: #333;
+  margin-bottom: 8px;
+  font-family: 'VT323', monospace;
+  font-size: 1.5em;
+}
+
+.presentadores {
+  line-height: 1.8;
+  color: #555;
+  margin-bottom: 6px;
+  padding-left: 2rem;
+}
+
+.moderador {
+  color: #555;
+  line-height: 1.5;
+}
+
+/* Responsive: en móvil las actividades paralelas se apilan verticalmente */
+@media (max-width: 768px) {
+  .cronograma-row {
+    grid-template-columns: 100px 1fr;
+  }
+  
+  .horario {
+    font-size: 0.9em;
+    padding: 1rem 0.75rem;
+    background-color: white;
+    text-decoration: underline;
+    text-decoration-color: #8c52ff;
+    text-decoration-thickness: 2px;  
+    text-underline-offset: 3px;      
+  }
+  
+  .actividades {
+    padding: 1rem 0.75rem;
+  }
+  
+  .actividades-paralelas {
+    grid-template-columns: 1fr;
+    gap: 1.5rem;
+  }
+  
+  .actividad {
+    padding-bottom: 1rem;
+    border-bottom: 1px dashed #ccc;
+  }
+  
+  .actividad:last-child {
+    border-bottom: none;
+    padding-bottom: 0;
+  }
+  
+  .titulo-actividad {
+    font-size: 1.1em;
+  }
+}
+

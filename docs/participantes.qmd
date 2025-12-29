@@ -1,0 +1,57 @@
+---
+title: "Participan en esta edición del seminario"
+format: html
+toc: false
+---
+
+```{r}
+#| echo: false
+#| warning: false
+#| message: false
+
+source("R/procesa-participantes.R")
+```
+
+<br>
+A continuación encontrarás la lista de participantes confirmados hasta el momento. 
+<br>
+<br>
+<br>
+
+## Invitada internacional
+
+```{r}
+#| echo: false
+#| warning: false
+#| message: false 
+#| results: asis
+
+html_participantes_keynote <- datos_participantes |> 
+  filter(tipo == "keynote") |> 
+  rowwise() |>
+  mutate(html = generar_div(foto_path, nombre, bio)) |>
+  pull(html) |> 
+  paste(collapse = "\n\n")
+
+cat(html_participantes_keynote)
+```
+
+<br>
+
+## Mesas temáticas
+
+```{r}
+#| echo: false
+#| warning: false
+#| message: false
+#| results: asis
+
+html_participantes_mesas <- datos_participantes |> 
+  filter(tipo == "mesa temática jueves") |> 
+  rowwise() |>
+  mutate(html = generar_div(foto_path, nombre, bio)) |>
+  pull(html) |> 
+  paste(collapse = "\n\n")
+
+cat(html_participantes_mesas)
+```

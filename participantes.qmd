@@ -9,7 +9,29 @@ toc: false
 #| warning: false
 #| message: false
 
-source("R/procesa-participantes.R")
+source("R/utils.R")
+
+# Desactivar autenticación para spreadsheets públicos
+gs4_deauth()
+
+# Leer datos del Google Spreadsheet
+url_hoja <- "https://docs.google.com/spreadsheets/d/10CI16PtJPUO5M_sz1bMJeDuIj4QN9phG-DRlhqD51C0/edit?usp=sharing"
+datos_participantes <- read_sheet(url_hoja, sheet = "info-ponentes-sitio-web")
+
+# Procesar los datos
+datos_participantes <- datos_participantes |>
+  mutate(
+    # Si foto está vacía, usar default-avatar.svg, si no, agregar la ruta
+    foto_path = ifelse(
+      is.na(foto) | foto == "", 
+      "img/participantes/default-avatar.svg",
+      paste0("img/participantes/", foto)
+    ),
+    # Reemplazar NA en bio con string vacío
+    bio = ifelse(is.na(bio), "", bio),
+    # Reemplazar NA en nombre con string vacío
+    nombre = ifelse(is.na(nombre), "", nombre)
+  )
 ```
 
 <br>
@@ -29,7 +51,7 @@ A continuación encontrarás la lista de participantes confirmados hasta el mome
 html_participantes_keynote <- datos_participantes |> 
   filter(tipo == "keynote") |> 
   rowwise() |>
-  mutate(html = generar_div(foto_path, nombre, bio)) |>
+  mutate(html = generar_div_presentador(foto_path, nombre, bio)) |>
   pull(html) |> 
   paste(collapse = "\n\n")
 
@@ -49,7 +71,7 @@ cat(html_participantes_keynote)
 html_participantes_mesas <- datos_participantes |> 
   filter(tipo == "mesa temática jueves") |> 
   rowwise() |>
-  mutate(html = generar_div(foto_path, nombre, bio)) |>
+  mutate(html = generar_div_presentador(foto_path, nombre, bio)) |>
   pull(html) |> 
   paste(collapse = "\n\n")
 
