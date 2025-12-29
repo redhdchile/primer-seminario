@@ -16,7 +16,8 @@ website:
       href: participantes.qmd
     - text: equipo
       href: equipo.qmd
-
+  page-footer: |
+    Hecho con <i class="fa-solid fa-heart"></i> y <i class="fa-solid fa-mug-hot"></i> usando [Quarto](https://quarto.org)
   search: false
 
 format:
