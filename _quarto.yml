@@ -3,7 +3,7 @@ project:
   output-dir: docs
 
 website:
-  title: "**Seminario RedHD Chile**"
+  title: "**RedHD Chile**"
   navbar:
     left:
     - text: inicio
