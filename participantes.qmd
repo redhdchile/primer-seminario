@@ -4,7 +4,7 @@ format: html
 toc: false
 ---
 
-```{r}
+```{r obtener-datos-participantes}
 #| echo: false
 #| warning: false
 #| message: false
@@ -42,7 +42,7 @@ A continuación encontrarás la lista de participantes confirmados hasta el mome
 
 ## Invitada internacional
 
-```{r}
+```{r render-keynote}
 #| echo: false
 #| warning: false
 #| message: false 
@@ -62,7 +62,7 @@ cat(html_participantes_keynote)
 
 ## Mesas temáticas
 
-```{r}
+```{r render-mesas}
 #| echo: false
 #| warning: false
 #| message: false

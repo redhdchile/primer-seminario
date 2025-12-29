@@ -13,7 +13,7 @@ toc: false
 <br>
 <br>
 
-```{r}
+```{r obtener-datos-programa}
 #| echo: false
 #| warning: false
 #| message: false
@@ -26,18 +26,18 @@ gs4_deauth()
 
 # Leer datos del Google Spreadsheet
 url_cronograma <- "https://docs.google.com/spreadsheets/d/1U1qjMhNzWZUzl4EK86YZpbPKhb9h16MaGRswCRPj2TI/edit?usp=sharing"
-datos_cronograma <- read_sheet(url_cronograma, sheet = "jueves-9")
+cronograma_jueves <- read_sheet(url_cronograma, sheet = "jueves-9")
 
 
 
 # Generar el HTML
-html_cronograma <- generar_html_cronograma(datos_cronograma)
+html_jueves <- generar_html_cronograma(cronograma_jueves)
 ```
 
 # jueves 9 de abril
 
 ```{=html}
-`r html_cronograma`
+`r html_jueves`
 ```
 
 # viernes 10 de abril

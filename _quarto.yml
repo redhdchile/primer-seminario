@@ -3,9 +3,11 @@ project:
   output-dir: docs
 
 website:
-  title: "**RedHD Chile**"
+  title: "**Seminario RedHD Chile**"
   navbar:
     left:
+    - text: inicio
+      href: index.qmd
     - text: cómo participar
       href: participa.qmd
     - text: programa
