@@ -17,7 +17,7 @@ website:
     - text: equipo
       href: equipo.qmd
   page-footer: |
-    Hecho con <i class="fa-solid fa-heart"></i> y <i class="fa-solid fa-mug-hot"></i> usando [Quarto](https://quarto.org)
+    Sitio web hecho con <i class="fa-solid fa-heart"></i>, <i class="fa-solid fa-mug-hot"></i> y [Quarto](https://quarto.org) por [Riva Quiroga](https://rivaquiroga.cl)
   search: false
 
 format:
@@ -28,6 +28,3 @@ format:
     css: styles.css
     toc: true
     mainfont: "Hammersmith One"
-
-
-
