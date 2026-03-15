@@ -36,10 +36,10 @@ Los formatos de presentación dependen del día en que decidas participar:
 - **Workshops prácticos**: Talleres aplicados de 60 minutos donde los participantes aprenden herramientas o metodologías específicas vinculadas a las humanidades digitales
 - **Presentaciones para paneles temáticos**: Presentaciones de 10 minutos sobre temas relacionados con las humanidades digitales
 
-Las postulaciones estarán abiertas hasta el **29 de enero de 2026** a las 23:59 UTC. 
+~~Las postulaciones estarán abiertas hasta el **29 de enero de 2026** a las 23:59 UTC.~~ **Postulaciones cerradas**
 
 
-::: {.button-container}
+<!--::: {.button-container}
 <a href="https://forms.gle/RxnrREyoUjeRifwS6" class="btn-custom">Presenta</a>
-:::
+:::-->
 

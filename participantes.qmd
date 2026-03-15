@@ -44,22 +44,42 @@ A continuación encontrarás la lista de participantes confirmados hasta el mome
 <br>
 <br>
 
-## Invitada internacional
+## Charla plenaria internacional
 
-```{r render-keynote}
+```{r render-keynote-internacional}
 #| echo: false
 #| warning: false
 #| message: false 
 #| results: asis
 
-html_participantes_keynote <- datos_participantes |> 
-  filter(tipo == "keynote") |> 
+html_participantes_keynote_int <- datos_participantes |> 
+  filter(tipo == "keynote-internacional") |> 
   rowwise() |>
   mutate(html = generar_div_presentador(foto_path, nombre, bio)) |>
   pull(html) |> 
   paste(collapse = "\n\n")
 
-cat(html_participantes_keynote)
+cat(html_participantes_keynote_int)
+```
+
+<br>
+
+## Charla plenaria nacional
+
+```{r render-keynote-nacional}
+#| echo: false
+#| warning: false
+#| message: false 
+#| results: asis
+
+html_participantes_keynote_nac <- datos_participantes |> 
+  filter(tipo == "keynote-nacional") |> 
+  rowwise() |>
+  mutate(html = generar_div_presentador(foto_path, nombre, bio)) |>
+  pull(html) |> 
+  paste(collapse = "\n\n")
+
+cat(html_participantes_keynote_nac)
 ```
 
 <br>

@@ -31,19 +31,23 @@ gs4_deauth()
 # Leer datos del Google Spreadsheet
 url_cronograma <- "https://docs.google.com/spreadsheets/d/1U1qjMhNzWZUzl4EK86YZpbPKhb9h16MaGRswCRPj2TI/edit?usp=sharing"
 cronograma_jueves <- read_sheet(url_cronograma, sheet = "jueves-9")
+cronograma_viernes <- read_sheet(url_cronograma, sheet = "viernes-10")
 
 
 
 # Generar el HTML
 html_jueves <- generar_html_cronograma(cronograma_jueves)
+html_viernes <- generar_html_cronograma(cronograma_viernes)
 ```
 
-# jueves 9 de abril
+# jueves 9 de abril (presencial)
 
 ```{=html}
 `r html_jueves`
 ```
 
-# viernes 10 de abril
+# viernes 10 de abril (online)
 
-¡Próximamente!
+```{=html}
+`r html_viernes`
+```
