@@ -30,7 +30,7 @@ formatear_presentadores <- function(presentadores) {
     return("")
   }
   # Cambiar comas por <br>
-  nombres <- str_split(presentadores, ",")[[1]] |>
+  nombres <- str_split(presentadores, ";")[[1]] |>
     str_trim() |>
     (\(x) paste0("> ", x))() |>    
     paste(collapse = "<br>\n          ")
@@ -104,18 +104,9 @@ generar_html_cronograma <- function(datos) {
     } else {
       # Actividad única
       html_total <- paste0(html_total, '    <div class="actividades">\n')
-      html_total <- paste0(html_total, '      <div class="actividad-unica">\n')
-      
-      # Solo actividad 1
-      if (!is.na(fila$actividad_1) && fila$actividad_1 != "") {
-        html_total <- paste0(html_total, '        <div class="titulo-actividad">', fila$actividad_1, '</div>\n')
-      }
-      
-      if (!is.na(fila$descripcion_1) && fila$descripcion_1 != "") {
-        html_total <- paste0(html_total, '        <div class="descripcion">', fila$descripcion_1, '</div>\n')
-      }
-      
-      html_total <- paste0(html_total, '      </div>\n')
+      html_total <- paste0(html_total, '      ',
+                          generar_div_actividad(fila$actividad_1, fila$descripcion_1,
+                                          fila$presentadores_1, fila$moderador_1), '\n')
       html_total <- paste0(html_total, '    </div>\n')
     }
     

@@ -186,7 +186,7 @@ iframe {
   border-right: 1px solid #ddd;
   font-weight: 600;
   display: flex;
-  align-items: center;
+  align-items: flex-start;
   text-decoration: underline;
   text-decoration-color: #8c52ff;
   text-decoration-thickness: 3px;
