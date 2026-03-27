@@ -49,7 +49,7 @@ Las actividades de este día se realizarán en el [Campus Lo Contador](https://m
 - Terraza piso 4 Edificio Arquitectura
 - Sala 17: también conocida como "La Piscina"
 
-Revisa el mapa para la ubicación exacta dentro del campus.
+Revisa el [mapa  para la ubicación exacta dentro del campus](ubicacion.qmd).
 
 
 ```{=html}
