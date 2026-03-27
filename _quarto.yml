@@ -12,6 +12,8 @@ website:
       href: participa.qmd
     - text: programa
       href: programa.qmd
+    - text:  ubicación
+      href: ubicacion.qmd
     - text: ponentes
       href: participantes.qmd
     - text: equipo

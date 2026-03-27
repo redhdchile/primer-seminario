@@ -9,11 +9,11 @@ include-in-header:
 ---
 
 
-<br>
+<!--<br>
 <br>
 <span style="color: white; background-color: #8c52ff; padding: 6px 6px; font-size: 1.5rem;">
   ..:: horarios provisorios | sujetos a cambio ::..
-</span>
+</span>-->
 <br>
 <br>
 
@@ -42,11 +42,23 @@ html_viernes <- generar_html_cronograma(cronograma_viernes)
 
 # jueves 9 de abril (presencial)
 
+Las actividades de este día se realizarán en el [Campus Lo Contador](https://maps.app.goo.gl/NFuyiH5Yqaehf3iW9) de la UC en los siguientes lugares:
+
+- Hall piso 1 Edificio de Arquitectura
+- Auditorio Eduardo Castillo Velasco: piso 4 Edificio de Arquitectura
+- Terraza piso 4 Edificio Arquitectura
+- Sala 17: también conocida como "La Piscina"
+
+Revisa el mapa para la ubicación exacta dentro del campus.
+
+
 ```{=html}
 `r html_jueves`
 ```
 
 # viernes 10 de abril (online)
+
+Las actividades de este día serán online a través de la plataforma Zoom. El enlace para conectarse se le enviará a las personas registradas vía correo electrónico. 
 
 ```{=html}
 `r html_viernes`

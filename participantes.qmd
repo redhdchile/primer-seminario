@@ -38,10 +38,7 @@ datos_participantes <- datos_participantes |>
   )
 ```
 
-<br>
-A continuación encontrarás la lista de participantes confirmados hasta el momento. 
-<br>
-<br>
+
 <br>
 
 ## Charla plenaria internacional

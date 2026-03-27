@@ -1,6 +1,7 @@
 ---
 title: "Primer Seminario de Humanidades Digitales"
 image: img/logo_sinbg.png
+toc: false
 about:
   template: jolla
   image-width: 10em
@@ -23,10 +24,34 @@ Durante abril de 2026 nos reuniremos para explorar de forma colectiva cómo las 
 
 
 <br/>
+<br/>
+<br/>
+
 <!--
 <script async data-uid="a94009d478" src="https://redhd-chile.kit.com/a94009d478/index.js"></script>
 -->
 
+
+### esta actividad es posible gracias al apoyo de
+
+::: {.sponsors-grid}
+
+::: {.sponsor-main}
+![](img/patrocinadores/instituto-historia.png)
+:::
+
+::: {.sponsor-mid}
+![](img/patrocinadores/letras.png)
+![](img/patrocinadores/facultad-historia.png)
+![](img/patrocinadores/jayma.png){.logo-muted}
+:::
+
+::: {.sponsor-small}
+![](img/patrocinadores/fadeu.png)
+![](img/patrocinadores/cenpuc.png){.logo-muted}
+:::
+
+:::
 
 <div id="particles-js" style="position: fixed; top: 0; left: 0; width: 100%; height: 100%; z-index: -1;"></div>
 

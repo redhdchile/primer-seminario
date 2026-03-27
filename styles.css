@@ -4,6 +4,10 @@
 
 /* css styles */
 
+a {
+  color: #8c52ff;
+}
+
 
 h1 {
   font-family: 'VT323', monospace;
@@ -62,7 +66,23 @@ h1 {
 }
 
 
-  /* Equipo */
+  /* Org logos (equipo page) */
+
+.org-logos {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 3rem;
+  margin: 2rem 0;
+}
+
+.org-logos img {
+  height: 200px;
+  width: auto;
+  object-fit: contain;
+}
+
+/* Equipo */
 
   .team-grid {
     display: grid;
@@ -280,6 +300,49 @@ iframe {
   }
 }
 
+
+/* Sponsors */
+
+.sponsors-grid {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1rem;
+  margin: 1.5rem 0;
+}
+
+.sponsor-main, .sponsor-mid, .sponsor-small {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  gap: 3rem;
+}
+
+.sponsors-grid img {
+  width: auto;
+  object-fit: contain;
+  filter: grayscale(100%);
+}
+
+.sponsor-main img {
+  height: 150px;
+}
+
+.sponsor-mid img {
+  height: 105px;
+  margin: 0 2rem;
+}
+
+.sponsor-small img {
+  height: 75px;
+  margin: 0 2rem;
+}
+
+.logo-muted {
+  height: 60px !important;
+  opacity: 0.7;
+}
 
 .navbar-toggler-icon {
   background-image: url("data:image/svg+xml;charset=UTF8,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3E%3Cpath stroke='white' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3E%3C/svg%3E");
