@@ -81,7 +81,7 @@ cat(html_participantes_keynote_nac)
 
 <br>
 
-## Mesas temáticas
+## Mesas de discusión (jueves)
 
 ```{r render-mesas}
 #| echo: false
@@ -98,3 +98,78 @@ html_participantes_mesas <- datos_participantes |>
 
 cat(html_participantes_mesas)
 ```
+
+
+# Pósteres (jueves)
+
+```{r render-posters}
+#| echo: false
+#| warning: false
+#| message: false
+#| results: asis
+
+html_participantes_posters <- datos_participantes |> 
+  filter(tipo == "posters") |> 
+  rowwise() |>
+  mutate(html = generar_div_presentador(foto_path, nombre, bio)) |>
+  pull(html) |> 
+  paste(collapse = "\n\n")
+
+cat(html_participantes_posters)
+```
+
+## Panel de fracasos (jueves)
+
+```{r render-fracasos}
+#| echo: false
+#| warning: false
+#| message: false
+#| results: asis
+
+html_participantes_fracasos <- datos_participantes |> 
+  filter(tipo == "panel de fracasos") |> 
+  rowwise() |>
+  mutate(html = generar_div_presentador(foto_path, nombre, bio)) |>
+  pull(html) |> 
+  paste(collapse = "\n\n")
+
+cat(html_participantes_fracasos)
+```
+
+# Charlas relámpago (jueves y viernes)
+
+```{r render-relampago}
+#| echo: false
+#| warning: false
+#| message: false
+#| results: asis
+
+html_participantes_relampago <- datos_participantes |> 
+  filter(tipo == "charlas relámpago") |> 
+  rowwise() |>
+  mutate(html = generar_div_presentador(foto_path, nombre, bio)) |>
+  pull(html) |> 
+  paste(collapse = "\n\n")
+
+cat(html_participantes_relampago)
+```
+
+
+## Paneles temáticos (viernes)
+
+```{r render-paneles}
+#| echo: false
+#| warning: false
+#| message: false
+#| results: asis
+
+html_participantes_paneles <- datos_participantes |> 
+  filter(tipo == "paneles temáticos") |> 
+  rowwise() |>
+  mutate(html = generar_div_presentador(foto_path, nombre, bio)) |>
+  pull(html) |> 
+  paste(collapse = "\n\n")
+
+cat(html_participantes_paneles)
+```
+
