@@ -1,6 +1,9 @@
 ---
 title: "Acerca del programa"
 toc: false
+include-in-header:
+      text: |
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
 ---
 
 El Primer Seminario de Humanidades Digitales – Chile: tecnologías, memorias y futuros posibles reúne a investigadoras, investigadores y agentes culturales de distintas regiones de Chile y América Latina para reflexionar colectivamente sobre el cruce entre tecnología, memoria, territorio y justicia social. A través de paneles temáticos, charlas relámpago, talleres prácticos y espacios de diálogo, el encuentro busca visibilizar experiencias situadas de investigación, creación y activismo digital que desafían las fronteras disciplinares y promueven formas colaborativas de producción de conocimiento. El seminario pone especial énfasis en enfoques críticos y públicos de las humanidades digitales, abordando temas como archivos comunitarios, visualización de datos territoriales, ciencia abierta, tecnofeminismos y mediación cultural en entornos digitales.
