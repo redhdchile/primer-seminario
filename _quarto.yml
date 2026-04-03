@@ -18,6 +18,8 @@ website:
       href: participantes.qmd
     - text: equipo
       href: equipo.qmd
+    - text: acerca de
+      href: acerca-de.qmd
   page-footer: |
     Sitio web hecho con <i class="fa-solid fa-heart"></i>, <i class="fa-solid fa-mug-hot"></i> y [Quarto](https://quarto.org) por [Riva Quiroga](https://rivaquiroga.cl)
   search: false

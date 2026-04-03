@@ -5,6 +5,8 @@ toc: false
 
 El Primer Seminario de Humanidades Digitales – Chile: tecnologías, memorias y futuros posibles reúne a investigadoras, investigadores y agentes culturales de distintas regiones de Chile y América Latina para reflexionar colectivamente sobre el cruce entre tecnología, memoria, territorio y justicia social. A través de paneles temáticos, charlas relámpago, talleres prácticos y espacios de diálogo, el encuentro busca visibilizar experiencias situadas de investigación, creación y activismo digital que desafían las fronteras disciplinares y promueven formas colaborativas de producción de conocimiento. El seminario pone especial énfasis en enfoques críticos y públicos de las humanidades digitales, abordando temas como archivos comunitarios, visualización de datos territoriales, ciencia abierta, tecnofeminismos y mediación cultural en entornos digitales.
 
+En esta primera edición, las actividades del [programa](programa.qmd) incluyen los siguientes formatos.
+
 # Mesas
 ### Mesa A - Geomapas: visualización territorial de datos culturales
 Este eje presenta investigaciones que utilizan herramientas de georreferenciación, sistemas de información geográfica (SIG) y visualización de datos para explorar fenómenos culturales, históricos y sociales en su dimensión espacial. Las ponencias abordan cartografías críticas, mapas colaborativos y visualizaciones interactivas que permiten relevar memorias comunitarias, conflictos territoriales, transformaciones urbanas y patrimonios invisibilizados. Las propuestas combinan enfoques técnicos e interpretativos y ofrecen miradas interdisciplinarias sobre el cruce entre espacio, cultura y tecnologías digitales.

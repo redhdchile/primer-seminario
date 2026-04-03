@@ -112,7 +112,7 @@ if (nrow(colaboradores) > 0) {
 
 ```
 
-# Ayudantes
+# Equipo de ayudantes
 <br/>
 
 <div id="ayudantes-lista">
