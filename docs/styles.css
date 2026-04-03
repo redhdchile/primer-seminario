@@ -248,6 +248,22 @@ iframe {
   font-size: 1.5em;
 }
 
+.presentadores-plegables {
+  margin-bottom: 8px;
+}
+
+.presentadores-plegables summary {
+  cursor: pointer;
+  color: #555;
+  font-weight: 300;
+  font-size: 0.95em;
+  user-select: none;
+}
+
+.presentadores-plegables summary:hover {
+  opacity: 0.75;
+}
+
 .presentadores {
   line-height: 1.8;
   color: #555;

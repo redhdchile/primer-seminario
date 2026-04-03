@@ -61,14 +61,90 @@ James Staig es Doctor en Literatura especializado en la relación entre sonido, 
 
 # Colaboran
 
-* [Constanza Córdova](https://laboratoriopatrimonioyhumanidades.uc.cl/nuestro-equipo/), Asistente de Dirección del [Laboratorio de Patrimonio Documental y Humanidades Digitales UC](https://centropatrimonio.uc.cl/iniciativas/laboratorio-de-humanidades-digitales/). 
-
-* [Victor Mendez](https://antropologia.uc.cl/la-escuela/academicos/victor-mendez/) y el [Laboratorio de Antropología Virtual](https://www.instagram.com/reel/DTvegc1if_A/)
 
 
+```{r obtener-datos-colaboradores}
+#| echo: false
+#| warning: false
+#| message: false
+
+source("R/utils.R")
+
+gs4_deauth()
+
+url_hoja <- "https://docs.google.com/spreadsheets/d/10CI16PtJPUO5M_sz1bMJeDuIj4QN9phG-DRlhqD51C0/edit?usp=sharing"
+datos_colaboradores <- read_sheet(url_hoja, sheet = "equipo")
+
+datos_colaboradores <- datos_colaboradores |>
+  mutate(
+    foto_path = ifelse(
+      is.na(foto) | foto == "",
+      "img/equipo/default-avatar.svg",
+      paste0("img/equipo/", foto)
+    ),
+    bio = ifelse(is.na(bio), "", bio),
+    nombre = ifelse(is.na(nombre), "", nombre)
+  )
+```
 
 
 
 
+```{r render-colaboradores}
+#| echo: false
+#| warning: false
+#| message: false
+#| results: asis
+
+# Colaboradores: tarjeta estilo team-member
+colaboradores <- datos_colaboradores |> filter(tipo == "colaboradores")
+if (nrow(colaboradores) > 0) {
+  html_cards <- colaboradores |>
+    rowwise() |>
+    mutate(html = generar_div_colaborador(foto_path, nombre, bio)) |>
+    pull(html) |>
+    paste(collapse = "\n\n")
+  cat('::: {.team-grid}\n\n')
+  cat(html_cards)
+  cat('\n\n:::\n\n')
+}
 
 
+```
+
+# Ayudantes
+<br/>
+
+<div id="ayudantes-lista">
+
+```{r}
+#| echo: false
+#| warning: false
+#| message: false
+#| results: asis
+
+# Ayudantes: estilo presentador
+ayudantes <- datos_colaboradores |> filter(tipo == "ayudantes")
+if (nrow(ayudantes) > 0) {
+  html_ayudantes <- ayudantes |>
+    rowwise() |>
+    mutate(html = generar_div_presentador(foto_path, nombre, bio)) |>
+    pull(html) |>
+    paste(collapse = "\n\n")
+  cat(html_ayudantes)
+}
+```
+
+</div>
+
+<script>
+  document.addEventListener("DOMContentLoaded", function() {
+    const lista = document.getElementById("ayudantes-lista");
+    const items = Array.from(lista.querySelectorAll(".presentador-item"));
+    for (let i = items.length - 1; i > 0; i--) {
+      const j = Math.floor(Math.random() * (i + 1));
+      lista.appendChild(items[j]);
+      items.splice(j, 1);
+    }
+  });
+</script>

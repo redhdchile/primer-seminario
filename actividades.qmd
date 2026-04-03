@@ -1,0 +1,57 @@
+---
+title: "Acerca del programa"
+toc: false
+---
+
+El Primer Seminario de Humanidades Digitales – Chile: tecnologías, memorias y futuros posibles reúne a investigadoras, investigadores y agentes culturales de distintas regiones de Chile y América Latina para reflexionar colectivamente sobre el cruce entre tecnología, memoria, territorio y justicia social. A través de paneles temáticos, charlas relámpago, talleres prácticos y espacios de diálogo, el encuentro busca visibilizar experiencias situadas de investigación, creación y activismo digital que desafían las fronteras disciplinares y promueven formas colaborativas de producción de conocimiento. El seminario pone especial énfasis en enfoques críticos y públicos de las humanidades digitales, abordando temas como archivos comunitarios, visualización de datos territoriales, ciencia abierta, tecnofeminismos y mediación cultural en entornos digitales.
+
+# Mesas
+### Mesa A - Geomapas: visualización territorial de datos culturales
+Este eje presenta investigaciones que utilizan herramientas de georreferenciación, sistemas de información geográfica (SIG) y visualización de datos para explorar fenómenos culturales, históricos y sociales en su dimensión espacial. Las ponencias abordan cartografías críticas, mapas colaborativos y visualizaciones interactivas que permiten relevar memorias comunitarias, conflictos territoriales, transformaciones urbanas y patrimonios invisibilizados. Las propuestas combinan enfoques técnicos e interpretativos y ofrecen miradas interdisciplinarias sobre el cruce entre espacio, cultura y tecnologías digitales.
+
+### Mesa B - Humanidades Digitales Públicas: colaboración, mediación y justicia social
+Este eje reúne experiencias de investigación, creación y acción cultural digital orientadas a la colaboración con comunidades y al fortalecimiento del vínculo entre conocimiento y justicia social. Las ponencias discuten iniciativas desarrolladas desde universidades, archivos, laboratorios ciudadanos o colectivos culturales, que utilizan tecnologías digitales para activar la memoria, ampliar el acceso al patrimonio o impulsar procesos de participación y mediación. Las presentaciones comparten enfoques situados sobre co-creación, pedagogías críticas y producción colaborativa de saberes.
+
+### Mesa C - Construir archivos digitales: memorias, tecnologías y políticas de preservación
+Las presentaciones de este eje abordan los desafíos técnicos, éticos y políticos que implica la construcción de archivos digitales en contextos diversos. Se discuten casos de archivo comunitario, prácticas de preservación, uso de software libre, construcción de metadatos y reflexiones sobre la memoria digital como proceso colectivo. Los proyectos presentados problematizan las decisiones curatoriales, los marcos de acceso y los modos en que lo digital puede dar soporte —o tensión— a procesos de patrimonialización, justicia y reparación.
+
+### Mesa D - Tecnofeminismos y derechos digitales
+Este eje ofrece una mirada crítica sobre las tecnologías digitales desde perspectivas feministas e interseccionales. Las ponencias exploran experiencias de activismo tecnofeminista, reflexiones sobre sesgos algorítmicos, infraestructuras del cuidado, autonomía tecnológica y resistencias frente a las violencias digitales. Las presentaciones articulan propuestas que cuestionan las lógicas extractivistas del capitalismo digital y abren caminos para pensar tecnologías inclusivas, éticas y construidas desde los territorios, los afectos y las redes de apoyo colectivo.
+
+### Mesa E - Ciencia abierta y reproducibilidad
+Este eje incluye trabajos que comparten metodologías, plataformas y enfoques orientados a la apertura, transparencia y colaboración en proyectos de humanidades digitales. Las presentaciones muestran prácticas de publicación abierta, documentación de procesos, uso compartido de datos, construcción de repositorios y estrategias de reproducibilidad. También se abordan los desafíos políticos y técnicos de implementar la ciencia abierta en contextos latinoamericanos, incluyendo tensiones vinculadas al acceso desigual a infraestructuras, reconocimiento académico y sostenibilidad.
+
+### Mesa F - Inteligencia artificial y cultura digital: saberes, sesgos y resistencias
+Este eje reúne investigaciones que analizan el impacto de la inteligencia artificial en la cultura, el conocimiento y las prácticas sociales desde una mirada crítica y situada. Las ponencias exploran cómo los sistemas algorítmicos reproducen —o pueden desafiar— desigualdades epistémicas, lingüísticas, de género y territoriales. Se abordan temas como sesgos en modelos de lenguaje, datos coloniales, automatización de procesos culturales, experiencias de resistencia tecnopolítica y usos creativos de la IA en proyectos de memoria, arte o pedagogía. Las presentaciones ofrecen marcos analíticos y experiencias concretas que permiten repensar el rol de las humanidades frente al avance de tecnologías opacas, centralizadas y no siempre democráticas.
+
+# Paneles
+
+Los paneles temáticos se definieron a través de un llamado abierto a ponencias, con el objetivo de ampliar la participación y visibilizar nuevas investigaciones y proyectps en el campo de las humanidades digitales. A diferencia de las mesas anteriores, cuyos participantes han sido previamente seleccionados, estas sesiones están compuestas por propuestas que fueron evaluadas por el comité organizador. 
+
+### Panel 1 - Algoritmos de la Experiencia: IA Aplicada a la Memoria, el Relato y el Territorio
+Este panel explora el uso de inteligencia artificial en la producción, análisis y visualización de información cultural y territorial. Se abordan aplicaciones como modelos de embeddings para archivos visuales, desarrollo de herramientas periodísticas basadas en procesamiento de lenguaje natural, usos de IA generativa en experiencias turísticas y plataformas de visualización de datos biográficos complejos, evidenciando cómo los algoritmos median nuevas formas de narrar, investigar y experimentar la memoria.
+
+### Panel 2 - Narrativas Digitales: Educación, Género y Territorio
+El panel reúne experiencias que articulan tecnologías digitales con educación, cultura y perspectiva de género. Se presentan iniciativas de archivos digitales y geomapeo educativo, plataformas para el desarrollo de habilidades lectoras, usos pedagógicos del videojuego y análisis de representaciones de género en entornos digitales, destacando el potencial de las narrativas digitales para transformar prácticas educativas y cuestionar imaginarios culturales contemporáneos.
+
+### Panel 3 - Cartografías Expandidas
+Este panel propone una ampliación del concepto de cartografía a través de tecnologías digitales y enfoques colaborativos. Incluye proyectos de mapeo del patrimonio cultural —como el muralismo en el exilio—, exploraciones en digitalización avanzada mediante gemelos digitales, plataformas de datos culturales que trascienden el mapa tradicional y experiencias de activismo digital territorial, mostrando cómo las cartografías pueden operar como herramientas críticas de memoria, representación y participación.
+
+### Panel 4 - Gobernanza Digital: Estrategias, Leyes y Patrimonios
+El panel aborda las dimensiones políticas, normativas y éticas del patrimonio digital. Se discuten marcos conceptuales sobre la naturaleza del patrimonio digitalizado, estrategias nacionales de gestión, disputas por la memoria en archivos vinculados a derechos humanos y nuevas formas de representación territorial, evidenciando la necesidad de políticas públicas y enfoques críticos que orienten la preservación, acceso y uso del patrimonio en entornos digitales.
+
+# Workshops
+
+Del mismo modo, los workshops prácticos del segundo día se seleccionaron a partir del envío de propuestas mediante convocatoria pública. Estos abordarán distintas aproximaciones críticas y prácticas en el cruce entre tecnología y humanidades digitales. El primero propone una introducción desde la educación popular a la comprensión y reapropiación de tecnologías, cuestionando sus usos y promoviendo una mirada situada. El segundo se centrará en el mapeo crítico mediante herramientas accesibles como Google My Maps, explorando su aplicación en proyectos de investigación con enfoque territorial y de género. El tercero abordará el diseño de sistemas de organización del conocimiento mediante Notion, orientado a estructurar ideas, fuentes y procesos en proyectos de humanidades digitales. Finalmente, el cuarto taller analizará históricamente la construcción de categorías biométricas a partir de avisos de fuga en Lima del siglo XIX, evidenciando cómo estas prácticas contribuyeron a la clasificación y control de cuerpos en contextos coloniales y republicanos tempranos.
+
+# Charlas relámpago
+
+Las charlas relámpago (o lightning talks) son presentaciones breves y dinámicas que buscan compartir ideas, experiencias o proyectos en desarrollo de forma concisa y estimulante. Cada intervención tiene una duración máxima de 5 minutos y está pensada para abrir diálogos, visibilizar iniciativas emergentes y fomentar el intercambio ágil entre participantes. Este formato permite una mayor diversidad de voces y promueve una atmósfera abierta, horizontal y colaborativa dentro del seminario. Las y los interesados en participar podrán inscribirse voluntariamente por correo electrónico o directamente durante el evento, hasta la hora del almuerzo del primer día.
+
+# Panel de Fracasos
+
+El Panel de Fracasos es un espacio destinado a compartir experiencias de proyectos, ideas o iniciativas en humanidades digitales que no resultaron como se esperaba. Lejos de entender el fracaso como algo negativo, este panel invita a reflexionar sobre los aprendizajes, obstáculos y decisiones complejas que marcan los procesos de creación, investigación o gestión digital. Se trata de un formato horizontal, abierto y honesto, que busca desmitificar el éxito lineal y generar comunidad desde la vulnerabilidad y la transparencia. Las y los participantes pueden inscribirse voluntariamente por correo electrónico o durante el evento, hasta la hora del almuerzo del primer día.
+
+# Exposición de Posters
+
+La exposición de pósters. Esta muestra busca reconocer el trabajo académico emergente, fomentar el intercambio intergeneracional y abrir un espacio de diálogo entre estudiantes, docentes y público general. Los pósters estarán disponibles en formato impreso durante la jornada presencial del seminario y sus autoras y autores podrán presentarlos informalmente durante los recesos y momentos de circulación.

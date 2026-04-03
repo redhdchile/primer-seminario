@@ -24,6 +24,22 @@ generar_div_presentador <- function(foto, nombre, bio) {
 }
 
 
+# Generar tarjeta estilo team-member para colaboradores
+generar_div_colaborador <- function(foto, nombre, bio) {
+  glue('
+::: {{.team-member}}
+![]({foto}){{.team-photo}}
+
+::: {{.team-name}}
+{nombre}
+:::
+
+{bio}
+
+:::
+  ')
+}
+
 # Formatear datos presentadores 
 formatear_presentadores <- function(presentadores) {
   if (is.na(presentadores) || presentadores == "") {
@@ -39,28 +55,38 @@ formatear_presentadores <- function(presentadores) {
 
 # Generar HTML para cada actividad
 generar_div_actividad <- function(titulo, descripcion, presentadores, moderador) {
-  
+
   # NAs por cadenas vacías
   titulo <- ifelse(is.na(titulo) || titulo == "", "", titulo)
   descripcion <- ifelse(is.na(descripcion) || descripcion == "", "", descripcion)
   moderador <- ifelse(is.na(moderador) || moderador == "", "", moderador)
-  
+
   html <- '<div class="actividad">\n'
-  
+
   # Título
   if (titulo != "") {
     html <- paste0(html, '        <div class="titulo-actividad">', titulo, '</div>\n')
   }
-  
+
   # Descripción
   if (descripcion != "") {
     html <- paste0(html, '        <div class="descripcion">', descripcion, '</div>\n')
   }
-  
-  # Presentadores
+
+  # Presentadores (plegables si el título contiene "inauguración")
   presentadores_html <- formatear_presentadores(presentadores)
   if (presentadores_html != "") {
-    html <- paste0(html, '        <div class="presentadores">\n          ', presentadores_html, '\n        </div>\n')
+    es_inauguracion <- grepl("inauguraci", titulo, ignore.case = TRUE)
+    if (es_inauguracion) {
+      html <- paste0(html,
+        '        <details class="presentadores-plegables">\n',
+        '          <summary>Ver detalle</summary>\n',
+        '          <div class="presentadores">\n          ', presentadores_html, '\n        </div>\n',
+        '        </details>\n'
+      )
+    } else {
+      html <- paste0(html, '        <div class="presentadores">\n          ', presentadores_html, '\n        </div>\n')
+    }
   }
   
   # Moderadores

@@ -8,7 +8,7 @@ include-in-header:
 
 ---
 
-
+Para conocer en qué consisten los distintos tipos de actividades, puedes revisar la sección ["Acerca del programa"](actividades.qmd).
 <!--<br>
 <br>
 <span style="color: white; background-color: #8c52ff; padding: 6px 6px; font-size: 1.5rem;">
