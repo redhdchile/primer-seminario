@@ -11,11 +11,16 @@ include-in-header:
 
 Hasta el 31 de marzo a las 23:59 UTC estará abierto el registro para asistentes. En el formulario te pediremos que indiques si quieres participar en el evento presencial (jueves 9 de abril), el online (viernes 10 de abril), o en ambos. 
 El registro no tiene costo.
+Si no alcanzaste a inscribirte, no te preocupes. **Algunas de las actividades serán transmitidas vía streaming a través del canal de YouTube del Laboratorio de Patrimmonio Documental y Humanidades Digitales UC**.
 
 
 ::: {.button-container}
-<a href="https://forms.gle/jQjDogLKMrajM15YA" class="btn-custom">Asiste</a>
+<a href="https://www.youtube.com/@LaboratorioPDHD/streams" class="btn-custom">Accede al streaming</a>
 :::
+
+<!--::: {.button-container}
+<a href="https://forms.gle/jQjDogLKMrajM15YA" class="btn-custom">Asiste</a>
+:::-->
 
 
 # Presenta tu proyecto o experiencia
