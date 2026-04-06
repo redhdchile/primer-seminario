@@ -44,10 +44,13 @@ html_viernes <- generar_html_cronograma(cronograma_viernes)
 
 Las actividades de este día se realizarán en el [Campus Lo Contador](https://maps.app.goo.gl/NFuyiH5Yqaehf3iW9) de la UC en los siguientes lugares:
 
-- Hall piso 1 Edificio de Arquitectura
-- Auditorio Eduardo Castillo Velasco: piso 4 Edificio de Arquitectura
-- Terraza piso 4 Edificio Arquitectura
-- Sala 17: también conocida como "La Piscina"
+- Edificio de Arquitectura:
+    - Registro: Hall piso 1
+    - Inauguración, Charla Magistral, Mesas A, C y E, Charlas relámpago: Auditorio piso 4 (Eduardo Castillo Velasco)
+    - Exhibición de pósters: Terraza piso 4 
+- Mesa B: Casa Sergio Larraín, piso 1
+- Mesa D: Edificio Doctorado Arquitectura, piso 2
+- Mesa F y Panel de Fracasos: Sala 17, también conocida como "La Piscina"
 
 Revisa el [mapa  para la ubicación exacta dentro del campus](ubicacion.qmd).
 

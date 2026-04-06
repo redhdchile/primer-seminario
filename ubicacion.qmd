@@ -11,11 +11,19 @@ include-in-header:
 El día jueves 9 de abril las actividades se ralizarán de forma presencial en el [campus Lo Contador de la UC](https://maps.app.goo.gl/NFuyiH5Yqaehf3iW9), en los siguientes espacios:
 
 - Edificio de Arquitectura:
-    - Hall piso 1
-    - Auditorio piso 4 (Eduardo Castillo Velasco)
-    - Terraza piso 4 
-- Sala 17: también conocida como "La Piscina"
+    - Registro: Hall piso 1
+    - Inauguración, Charla Magistral, Mesas A, C y E, Charlas relámpago: Auditorio piso 4 (Eduardo Castillo Velasco)
+    - Exhibición de pósters: Terraza piso 4 
+- Mesa B: Casa Sergio Larraín, piso 1
+- Mesa D: Edificio Doctorado Arquitectura, piso 2
+- Mesa F y Panel de Fracasos: Sala 17, también conocida como "La Piscina"
 
-![](img/lo-contador.png)
+![](img/mapita.png)
 
+
+::: {.button-container}
+<a href="img/mapita-jueves-9.pdf" class="btn-custom">descargar mapa</a>
+:::
+
+<br/>
 La estación de metro más cercana es Pedro de Valdivia, que se encuentra a ~10 minutos caminando. 
