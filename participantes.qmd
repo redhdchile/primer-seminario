@@ -100,7 +100,7 @@ cat(html_participantes_mesas)
 ```
 
 
-# Pósteres (jueves)
+## Pósteres (jueves)
 
 ```{r render-posters}
 #| echo: false
@@ -136,7 +136,7 @@ html_participantes_fracasos <- datos_participantes |>
 cat(html_participantes_fracasos)
 ```
 
-# Charlas relámpago (jueves y viernes)
+## Charlas relámpago (jueves y viernes)
 
 ```{r render-relampago}
 #| echo: false
@@ -152,6 +152,25 @@ html_participantes_relampago <- datos_participantes |>
   paste(collapse = "\n\n")
 
 cat(html_participantes_relampago)
+```
+
+## Workshops
+
+
+```{r render-workshops}
+#| echo: false
+#| warning: false
+#| message: false
+#| results: asis
+
+html_participantes_workshops <- datos_participantes |> 
+  filter(tipo == "workshops") |> 
+  rowwise() |>
+  mutate(html = generar_div_presentador(foto_path, nombre, bio)) |>
+  pull(html) |> 
+  paste(collapse = "\n\n")
+
+cat(html_participantes_workshops)
 ```
 
 
