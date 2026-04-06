@@ -144,6 +144,58 @@ iframe {
 }
 
 
+/* Navegación de secciones en página de participantes */
+
+.nav-participantes {
+  margin: 2rem 0 2.5rem;
+}
+
+.nav-participantes p {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+  justify-content: center;
+  max-width: 700px;                      
+  margin-bottom: 0;
+}
+
+.nav-participantes-btn {
+  display: inline-block;
+  padding: 0.35rem 0.85rem;
+  border: 2px solid #8c52ff;
+  border-radius: 2rem;
+  text-decoration: none;
+  font-size: 0.9rem;
+  color: white;
+  background: #8c52ff;
+  transition: background 0.2s, color 0.2s;
+  margin-bottom: 0.5rem;
+}
+
+.nav-participantes-btn:hover {
+  background: #7040e0;
+  color: white;
+}
+
+.nav-programa-btn {
+  display: inline-block;
+  padding: 0.5rem 0.5rem;
+  border: 2px solid #8c52ff;
+  border-radius: 8px;
+  text-decoration: none;
+  font-size: 0.9rem;
+  color: white;
+  background: #8c52ff;
+  transition: background 0.2s;
+  margin-bottom: 0.5rem;
+}
+
+.nav-programa-btn:hover {
+  background: #7040e0;
+  color: white;
+}
+
+
 /* Presentadores */
 
 .presentador-item {

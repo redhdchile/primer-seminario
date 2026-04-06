@@ -38,8 +38,16 @@ datos_participantes <- datos_participantes |>
   )
 ```
 
+<div class="nav-participantes">
+  <a href="#charla-plenaria-internacional" class="nav-participantes-btn">keynotes</a>
+  <a href="#mesas-de-discusión-jueves" class="nav-participantes-btn">mesas de discusión</a>
+  <a href="#panel-de-fracasos-jueves" class="nav-participantes-btn">panel de fracasos</a>
+  <a href="#pósteres-jueves" class="nav-participantes-btn">pósters</a>
+  <a href="#charlas-relámpago-jueves-y-viernes" class="nav-participantes-btn">charlas relámpago</a>
+  <a href="#workshops" class="nav-participantes-btn">workshops</a>
+  <a href="#paneles-temáticos-viernes" class="nav-participantes-btn">paneles temáticos</a>
+</div>
 
-<br>
 
 ## Charla plenaria internacional
 
@@ -59,8 +67,6 @@ html_participantes_keynote_int <- datos_participantes |>
 cat(html_participantes_keynote_int)
 ```
 
-<br>
-
 ## Charla plenaria nacional
 
 ```{r render-keynote-nacional}
@@ -78,7 +84,6 @@ html_participantes_keynote_nac <- datos_participantes |>
 
 cat(html_participantes_keynote_nac)
 ```
-
 <br>
 
 ## Mesas de discusión (jueves)

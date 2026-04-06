@@ -14,8 +14,12 @@ Para conocer en qué consisten los distintos tipos de actividades, puedes revisa
 <span style="color: white; background-color: #8c52ff; padding: 6px 6px; font-size: 1.5rem;">
   ..:: horarios provisorios | sujetos a cambio ::..
 </span>-->
-<br>
-<br>
+<div class="nav-participantes">
+  <a href="#jueves-9-de-abril-presencial" class="nav-programa-btn">Jueves 9 (presencial)</a>
+  <a href="#viernes-10-de-abril-online" class="nav-programa-btn">Viernes 10 (online)</a>
+</div>
+
+
 
 ```{r obtener-datos-programa}
 #| echo: false
