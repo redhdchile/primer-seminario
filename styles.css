@@ -155,8 +155,8 @@ iframe {
   flex-wrap: wrap;
   gap: 0.5rem;
   justify-content: center;
-  max-width: 700px;                      
-  margin-bottom: 0;
+  max-width: 700px;
+  margin: 0 auto;
 }
 
 .nav-participantes-btn {
@@ -165,7 +165,7 @@ iframe {
   border: 2px solid #8c52ff;
   border-radius: 2rem;
   text-decoration: none;
-  font-size: 0.9rem;
+  font-size: 0.8rem;
   color: white;
   background: #8c52ff;
   transition: background 0.2s, color 0.2s;
