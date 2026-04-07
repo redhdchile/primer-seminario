@@ -18,7 +18,7 @@ Durante abril de 2026 nos reuniremos para explorar de forma colectiva cómo las 
 {{< fa location-dot >}} **Campus Lo Contador UC + online** 
 
 ::: {.button-container}
-<a href="https://forms.gle/jQjDogLKMrajM15YA" class="btn-custom">Asiste</a>
+<a href="participa.html" class="btn-custom">Participa</a>
 <!--<a href="https://forms.gle/RxnrREyoUjeRifwS6" class="btn-custom">Presenta</a>-->
 :::
 
