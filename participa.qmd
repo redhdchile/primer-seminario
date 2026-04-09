@@ -15,7 +15,16 @@ Si no alcanzaste a inscribirte, no te preocupes. **Algunas de las actividades se
 
 
 ::: {.button-container}
-<a href="https://www.youtube.com/@LaboratorioPDHD/streams" class="btn-custom">Accede al streaming</a>
+<a href="https://www.youtube.com/live/XRTQdqZ09w8?si=OVBtyBcXkCmW6EDp" class="btn-custom">streaming jueves auditorio</a>
+:::
+
+
+::: {.button-container}
+<a href="https://www.youtube.com/live/PdYp61g-H_8" class="btn-custom">streaming jueves salas</a>
+:::
+
+::: {.button-container}
+<a href="https://www.youtube.com/watch?v=b6yOqpPID1o" class="btn-custom">streaming viernes</a>
 :::
 
 <!--::: {.button-container}
