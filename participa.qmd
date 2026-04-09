@@ -15,7 +15,7 @@ Si no alcanzaste a inscribirte, no te preocupes. **Algunas de las actividades se
 
 
 ::: {.button-container}
-<a href="https://www.youtube.com/live/XRTQdqZ09w8?si=OVBtyBcXkCmW6EDp" class="btn-custom">streaming jueves auditorio</a>
+<a href="https://www.youtube.com/watch?v=LE1gYU_Jy9M" class="btn-custom">streaming jueves auditorio</a>
 :::
 
 
