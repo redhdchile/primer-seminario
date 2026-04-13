@@ -24,12 +24,7 @@ Si no alcanzaste a inscribirte, no te preocupes. **Algunas de las actividades se
 :::
 
 ::: {.button-container}
-<a href="https://www.youtube.com/watch?v=b6yOqpPID1o" class="btn-custom">streaming viernes charlas relámpago</a>
-:::
-
-
-::: {.button-container}
-<a href="https://www.youtube.com/live/4X35ujCN-7Y" class="btn-custom">streaming viernes paneles y charla magistralo</a>
+<a href="https://www.youtube.com/@LaboratorioPDHD/streams" class="btn-custom">streaming viernes</a>
 :::
 
 
